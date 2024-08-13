@@ -1,4 +1,4 @@
-This article explains how to load the online images in [.NET MAUI AvatarView](https://www.syncfusion.com/maui-controls/maui-avatarview). To display an online image in the AvatarView, it is recommended to set the [ContentType](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Core.SfAvatarView.html?tabs=tabid-1#Syncfusion_Maui_Core_SfAvatarView_ContentType) property to [Custom](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Core.ContentType.html#Syncfusion_Maui_Core_ContentType_Custom). This allows for the use of custom images, including those sourced from the web.
+This article explains how to load online images in the [.NET MAUI AvatarView](https://www.syncfusion.com/maui-controls/maui-avatarview). To display an online image in the AvatarView, it is recommended to utilize the `UriImageSource` from the [ImageSource](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Core.SfAvatarView.html#Syncfusion_Maui_Core_SfAvatarView_ImageSource) and set the [ContentType](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Core.SfAvatarView.html?tabs=tabid-1#Syncfusion_Maui_Core_SfAvatarView_ContentType) property to [Custom](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Core.ContentType.html#Syncfusion_Maui_Core_ContentType_Custom).  This allows for the use of custom images, including those sourced from the web.
 
 ```xml
 <VerticalStackLayout
@@ -15,9 +15,6 @@ This article explains how to load the online images in [.NET MAUI AvatarView](ht
     </core:SfAvatarView>
 </VerticalStackLayout>
 ```
-
-- **ContentType**: Setting this property to `Custom` enables AvatarView to accept custom images.
-- **ImageSource**: The `UriImageSource` is used to specify the URL of the image that you want to display.
 
 By following this approach, you can easily load and display online images in your .NET MAUI applications.
 
